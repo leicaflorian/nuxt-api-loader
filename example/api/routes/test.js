@@ -1,4 +1,4 @@
-import { BasicApiRoute } from '../../classes/BasicApiRoute'
+import { BasicApiRoute } from '../../../classes/BasicApiRoute'
 
 class UsersRoute extends BasicApiRoute {
     /**

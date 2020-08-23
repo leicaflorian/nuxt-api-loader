@@ -4,10 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt example"
   },
   "dependencies": {
     "classes": "./classes",
