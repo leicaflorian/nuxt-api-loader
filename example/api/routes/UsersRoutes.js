@@ -1,6 +1,6 @@
-import { BasicApiRoute } from '../../../classes/BasicApiRoute'
+import { BasicApiRoute } from '../../..'
 
-class UsersRoute extends BasicApiRoute {
+class UsersRoutes extends BasicApiRoute {
     /**
      * @returns {Router}
      */
@@ -19,4 +19,4 @@ class UsersRoute extends BasicApiRoute {
     }
 }
 
-export default UsersRoute
+export default UsersRoutes

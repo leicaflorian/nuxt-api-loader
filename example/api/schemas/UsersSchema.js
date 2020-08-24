@@ -1,4 +1,4 @@
-import { BasicJoiSchema } from '../../classes/BasicJoiSchema'
+import { BasicJoiSchema } from '../../../'
 
 class UsersApiSchema extends BasicJoiSchema {
     constructor(action) {
