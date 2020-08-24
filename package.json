@@ -4,7 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt example"
+    "dev": "nuxt example",
+    "patch": "npm version patch && git push"
   },
   "dependencies": {
     "classes": "./classes",
