@@ -5,3 +5,5 @@ export default NuxtApiLoader
 export { BasicError } from "./lib/classes/errors/BasicError"
 export { BasicApiRoute } from "./lib/classes/BasicApiRoute"
 export { BasicJoiSchema } from "./lib/classes/BasicJoiSchema"
+
+export * as errors from "./lib/classes/errors"
