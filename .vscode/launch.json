@@ -6,7 +6,7 @@
     "configurations": [
         {
             "command": "yarn dev",
-            "name": "Run npm start",
+            "name": "Run Nuxt Dev",
             "request": "launch",
             "type": "node-terminal"
         },
