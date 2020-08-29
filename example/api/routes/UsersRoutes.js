@@ -1,4 +1,4 @@
-import { BasicApiRoute } from '../../..'
+import { BasicApiRoute } from '../../../index'
 
 class UsersRoutes extends BasicApiRoute {
     /**
@@ -14,7 +14,7 @@ class UsersRoutes extends BasicApiRoute {
         })
 
         this.addCall('/error', async () => {
-            throw new UsersRoute.errors.BasicError("my message", 510)
+            throw new UsersRoutes.errors.BasicError("my message", 510)
         })
     }
 }
