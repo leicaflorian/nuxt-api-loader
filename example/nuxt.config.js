@@ -50,7 +50,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    "~/../lib/module.js"
+    "~/../"
   ],
   /*
   ** Build configuration
