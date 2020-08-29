@@ -1,14 +1,13 @@
 {
   "name": "nuxt-api-loader",
   "version": "1.0.1",
-  "private": true,
+  "private": false,
   "main": "index.js",
   "scripts": {
     "dev": "nuxt example",
     "patch": "npm version patch && git push"
   },
   "dependencies": {
-    "classes": "./classes",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-status-codes": "^1.4.0",
