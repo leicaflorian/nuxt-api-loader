@@ -50,7 +50,11 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    "~/../"
+    ["~/../", {
+      prependMiddlewares: [
+        "~/serverMiddlewares/apiAuth.js"
+      ]
+    }]
   ],
   /*
   ** Build configuration
