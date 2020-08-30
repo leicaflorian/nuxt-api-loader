@@ -1,6 +1,6 @@
 {
   "name": "nuxt-api-loader",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": false,
   "main": "index.js",
   "scripts": {
